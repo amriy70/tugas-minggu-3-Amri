@@ -1,0 +1,28 @@
+[
+    {
+        "id": "TC-INV-003",
+        "module": "Add to Cart",
+        "description": "Memastikan bahwa tombol 'Add to cart' menambahkan produk ke keranjang",
+        "pre-condition": "User berhasil login dan berada dihalaman inventory",
+        "test-step": [
+            "Login ke aplikasi",
+            "Masukkan username pada field username",
+            "Masukkan password pada field password",
+            "Klik tombol LOGIN",
+            "Pastikan setelah berhasil login menampilkan screen inventori",
+            "Klik tombol 'Add to Cart' pada produk pertama",
+            "Pastikan button 'Add to Cart' berubah menjadi 'REMOVE' setelah di klik",
+            "Verivikasi icon keranjang menampilkan angka 1"
+        ],
+
+        "test data": {
+            "username": "standard_user",
+            "password": "secret_sauce"
+
+        },
+        "expected": "Icon keranjang menunjukkan angka 1 dan tombol berubah jadi 'Remove'",
+        "priority": "high",
+        "isPositive": true
+    }
+
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-05T19:11:40 WIB" name="Mobile eCommerce Suite Test" finished-at="2025-10-05T19:11:54 WIB" duration-ms="13678">
+    <groups>
+    </groups>
+    <test started-at="2025-10-05T19:11:40 WIB" name="juaracoding-inventory-cart" finished-at="2025-10-05T19:11:54 WIB" duration-ms="13678">
+      <class name="com.juaracoding.examweek3.authentications.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.juaracoding.examweek3.authentications.AddToCartTest@4c1d9d4b]" started-at="2025-10-05T19:11:40 WIB" name="setup" finished-at="2025-10-05T19:11:48 WIB" duration-ms="8040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddToCartFunctionality()[pri:0, instance:com.juaracoding.examweek3.authentications.AddToCartTest@4c1d9d4b]" started-at="2025-10-05T19:11:48 WIB" name="verifyAddToCartFunctionality" finished-at="2025-10-05T19:11:53 WIB" duration-ms="4825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.juaracoding.examweek3.authentications.AddToCartTest@4c1d9d4b]" started-at="2025-10-05T19:11:53 WIB" name="teardown" finished-at="2025-10-05T19:11:54 WIB" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.juaracoding.examweek3.authentications.AddToCartTest -->
+    </test> <!-- juaracoding-inventory-cart -->
+  </suite> <!-- Mobile eCommerce Suite Test -->
+</testng-results>
